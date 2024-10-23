@@ -15,3 +15,12 @@ resource "kubernetes_namespace" "poc" {
     name = "poc" # Name of namespace
   }
 }
+
+resource "kubernetes_namespace" "prod" {
+  metadata {
+    name = "prod" # Name of namespace
+    labels = {
+      istio-injection = "enabled"
+    }
+  }
+}
