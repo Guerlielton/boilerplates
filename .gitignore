@@ -1,10 +1,11 @@
 # Local .terraform directories
 **/.terraform/*
-
+helms
 # .tfstate files
 *.tfstate
 *.tfstate.*
-
+terraform/helm/argocd
+terraform/helm/authentik
 # Crash log files
 crash.log
 crash.*.log

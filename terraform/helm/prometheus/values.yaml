@@ -1,0 +1,13 @@
+grafana:
+      enabled: true
+      ingress:
+        enabled: true
+        annotations:
+          kubernetes.io/ingress.class: nginx
+          cert-manager.io/cluster-issuer: "letsencrypt-prod"
+        hosts:
+          - grafana.mydomain.com
+        tls:
+          - hosts:
+              - grafana.mydomain.com
+            secretName: grafana-tls

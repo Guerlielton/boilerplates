@@ -12,10 +12,5 @@ Below is the current directory structure:
 ├── renovate.json           # Renovate configuration for dependency updates
 └── terraform               # Main directory for Terraform examples
     ├── helm                # Examples of integrating Terraform with Helm
-    │   ├── external-secrets.tf       # External Secrets via Helm Chart
-    │   ├── kube-prometheus-stack.tf  # Deploy kube-prometheus-stack using Helm
-    │   ├── sealed-secrets.tf         # Sealed Secrets deployment via Helm Chart
-    │   └── sonarqube.tf              # SonarQube deployment via Helm Chart
-    └── kubernetes           # Basic Kubernetes resources using Terraform
-        └── namespace.tf     # Example of creating namespaces in Kubernetes
+    └── kubernetes          # Basic Kubernetes resources using Terraform
 ```
