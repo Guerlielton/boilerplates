@@ -14,3 +14,6 @@ Below is the current directory structure:
     ├── helm                # Examples of integrating Terraform with Helm
     └── kubernetes          # Basic Kubernetes resources using Terraform
 ```
+## Inspiration
+
+The inspiration for this Boilerplate comes from the [Boilerplates by Christian Lempa](https://github.com/ChristianLempa/boilerplates). 
