@@ -453,7 +453,7 @@ postgresql:
   enabled: true
   image:
     repository: arm64v8/postgres
-    tag: 13.16
+    tag: 13.21
   postgresqlUsername: "sonarUser"
   postgresqlPassword: "sonarPass"
   postgresqlDatabase: "sonarDB"
