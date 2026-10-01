@@ -50,7 +50,7 @@ resource "helm_release" "sonarqube" {
   chart            = "sonarqube"
   namespace        = "sonarqube"
   create_namespace = true
-  version          = "2026.4.1" # Chart Version
+  version          = "2026.5.1001" # Chart Version
   values           = [file("${path.module}/sonarqube/values.yaml")]
 
   lifecycle {
